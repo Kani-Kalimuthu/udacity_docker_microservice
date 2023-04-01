@@ -1,7 +1,19 @@
 (.devops) voclabs:~/environment/udacity_docker_microservice (main) $ ./run_kubernetes.sh 
 Error from server (AlreadyExists): pods "udacitydevops" already exists
-NAME            READY   STATUS    RESTARTS   AGE
-udacitydevops   1/1     Running   0          7m11s
-udacitykk       1/1     Running   0          35s
+NAME            READY   STATUS    RESTARTS      AGE
+udacitydevops   1/1     Running   1 (92m ago)   3h19m
+udacitykk       1/1     Running   1 (92m ago)   3h13m
 Forwarding from 127.0.0.1:8080 -> 80
 Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
+
+
+
+^C(.devops) voclabs:~/environment/udacity_docker_microservice (main) $ ./make_prediction.sh 
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+(.devops) voclabs:~/environment/udacity_docker_microservice (main) $ 
