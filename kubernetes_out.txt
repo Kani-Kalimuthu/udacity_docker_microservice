@@ -1,0 +1,7 @@
+(.devops) voclabs:~/environment/udacity_docker_microservice (main) $ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "udacitydevops" already exists
+NAME            READY   STATUS    RESTARTS   AGE
+udacitydevops   1/1     Running   0          7m11s
+udacitykk       1/1     Running   0          35s
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
